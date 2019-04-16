@@ -5,8 +5,13 @@ class Snake:
 
 class Cobra(Snake):
     """Definitely dangerous, yup."""
+<<<<<<< HEAD
     
     def bites(self, other):
+=======
+    """KEVINS LOUD EDIT"""
+    def bite(self, other):
+>>>>>>> miles/master
         """Deliver a dose of venom."""
         pass
 
@@ -14,9 +19,10 @@ class Cobra(Snake):
 class BoaConstrictor(Snake):
     """This one gives really good hugs."""
     
-    def squeezes(self, other):
+    def squeeze(self, other):
         """Give a hug."""
-        pass
+        from bear import hug
+        hug(self, other, kill=True)
 
     
 class BoatConstrictor(BoaConstrictor):
